@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="                                                              Test Implementation Layer">
+    <Position X="1.745" Y="0.522" Height="0.35" Width="6.085" />
+  </Comment>
+  <Comment CommentText="                                                        Test Abstraction Layer">
+    <Position X="8.409" Y="0.533" Height="0.35" Width="5.224" />
+  </Comment>
+  <Class Name="UserAccountTests.LoginTests">
+    <Position X="2.5" Y="7.25" Width="4" />
+    <InheritanceLine Type="ECommerceAutomation.Test.ECommerceTestBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.594" Y="7.25" />
+        <Point X="10.594" Y="6.829" />
+        <Point X="5.625" Y="6.829" />
+        <Point X="5.625" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Test\UserAccountTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECommerceAutomation.Page.LoginPage" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAIA4AAAEAgICEAAAIAAIAAAAAACAAAgAAAAEA=</HashCode>
+      <FileName>Page\Implementation\LoginPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Test.ECommerceTestBase">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAABAgAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Test\E-CommerceTestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECommerceAutomation.Verification.LoginVerification">
+    <Position X="4" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAAAAAAAAAAAAQAAgBAAAAAAAAAAAEA=</HashCode>
+      <FileName>Verification\Implementation\LoginVerification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Action.LoginAction">
+    <Position X="1.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAEAAAAAAAQAAAQAAABAAAAAAAIAAAAA=</HashCode>
+      <FileName>Action\Implementation\LoginAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Data.LoginData" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAAAAQAAAAAAAAAAAQAAgAAAAA=</HashCode>
+      <FileName>Data\Implementation\LoginData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoreAutomation.Test.BaseTest">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CoreAutomation.Page.BasePage">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="ECommerceAutomation.Data.Abstraction.ILoginData" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAAAAQAAAAAAAAAAAQAAgAAAAA=</HashCode>
+      <FileName>Data\Abstraction\ILoginData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Action.Abstraction.ILoginAction" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Action\Abstraction\ILoginAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Verification.Abstraction.ILoginVerification" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verification\Abstraction\ILoginVerification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Page.Abstraction.ILoginPage" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAoAAAAAAACAAAAAAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Page\Abstraction\ILoginPage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

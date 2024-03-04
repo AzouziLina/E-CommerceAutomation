@@ -20,28 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.11\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.11\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.15\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.15\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.18\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.18\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.19\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.19\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.23\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.23\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.34\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.34\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.35\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.35\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.36\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.36\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.3\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.3\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.6\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.6\contentFiles\any\net7.0\testhost.exe" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.7\contentFiles\any\net7.0\testhost.dll" />
-    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.7\contentFiles\any\net7.0\testhost.exe" />
     <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.1.0\contentFiles\any\net7.0\testhost.dll" />
     <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.1.0\contentFiles\any\net7.0\testhost.exe" />
     <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\microsoft.testplatform.testhost\17.7.1\build\netcoreapp3.1\x64\testhost.dll" />
@@ -49,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreAutomation" Version="1.1.0" />
+    <PackageReference Include="CoreAutomation" Version="1.1.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
